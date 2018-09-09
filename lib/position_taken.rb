@@ -1,8 +1,8 @@
-def position_taken?(array, input, character = "X")
+def position_taken?(array, input)
   index = input.to_i - 1
   if array[index] == ""
-    array[index] = " #{character} "
+    return true
   else
-    puts ""
+    return false
   end  
 end  
