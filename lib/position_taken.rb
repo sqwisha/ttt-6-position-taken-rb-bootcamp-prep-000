@@ -1,1 +1,4 @@
-# code your #position_taken? method here!
+def position_taken?(arr[i])
+  if arr[]
+  end  
+end  
