@@ -3,7 +3,8 @@ def position_taken?(array, input)
   if array[index] == "" || " "
     return false
   elsif array[index] == "X" || "O"
-  
+    return true
+  else
     return true
   end  
 end  
