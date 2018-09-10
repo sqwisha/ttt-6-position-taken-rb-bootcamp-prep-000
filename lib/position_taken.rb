@@ -1,4 +1,4 @@
-def position_taken?(array, input)
+def position_taken?(board, index)
   index = input.to_i - 1
   if array[index] == "" || " "
     return false
