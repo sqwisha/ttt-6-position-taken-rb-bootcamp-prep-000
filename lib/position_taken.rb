@@ -1,8 +1,7 @@
 def position_taken?(board, index)
-  index = input.to_i - 1
-  if array[index] == "" || " "
+  if board[index] == "" || " "
     return false
-  elsif array[index] == "X" || "O"
+  elsif board[index] == "X" || "O"
     return true
   else
     return true
