@@ -1,7 +1,7 @@
 def position_taken?(board, index)
-  if (board[index] == "" || " ")
-    return false
-  elsif (board[index].include? "X" || "O")
+  if (board[index].include? "X" || "O")
     return true
+  else 
+    return false
   end  
 end  
