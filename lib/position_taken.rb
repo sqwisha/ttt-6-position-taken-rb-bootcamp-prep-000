@@ -8,4 +8,5 @@ def position_taken?(board, index)
   else if board[index].include? "X" || "O"
     return true
   end  
+end
 end  
